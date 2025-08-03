@@ -65,7 +65,3 @@ The model achieved an impressive accuracy of **99.5%** on test data, making it a
 - [ScienceDirect Article on Intrusion Detection](https://www.sciencedirect.com/science/article/pii/S1877050916311127)
 - [IBM Cloud AutoAI Documentation](https://www.ibm.com/docs/en/watsonx/saas?topic=solutions-autoai-machine-learning)
 
-## 📜 Certifications
-
-- IBM Cloud Machine Learning
-- IBM AutoAI Deployment
