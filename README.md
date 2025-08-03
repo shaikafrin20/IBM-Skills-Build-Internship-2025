@@ -5,3 +5,73 @@ This internship covered a wide range of topics related to Machine Learning and A
 <img width="925" height="596" alt="image" src="https://github.com/user-attachments/assets/7755029b-e00d-4771-ab82-274c7801903b" />
 
 All the projects were performed on IBM cloud, which gave me an indepth knowledge and practical experience of using IBM cloud for various machine learning and AI tasks
+
+🛡️ Network Intrusion Detection Using IBM Cloud ML Services
+This project is a capstone implementation of a Network Intrusion Detection System (NIDS) using Machine Learning algorithms, deployed on IBM Cloud Machine Learning Services. The system analyzes network traffic data to detect and classify various types of cyber-attacks and separate them from normal activity.
+
+📌 Problem Statement
+Cybersecurity threats are on the rise, and early detection of malicious network activity is critical. This project aims to create a robust ML-based system to identify network intrusions such as:
+
+Denial of Service (DoS)
+
+Probe attacks
+
+Remote to Local (R2L)
+
+User to Root (U2R)
+
+The goal is to provide an early-warning system for malicious activity in communication networks.
+
+💡 Proposed Solution
+The system follows a typical machine learning pipeline:
+
+Data Collection: Network traffic data with labels for attack/normal activity.
+
+Preprocessing: Cleaning, handling missing values, and feature engineering.
+
+Model Training: A Decision Tree Classifier with ensemble learning was used.
+
+Evaluation: Metrics like Accuracy, Precision, Recall, F1-Score were used.
+
+Deployment: Hosted using IBM Cloud's AutoAI ML services.
+
+🛠️ System Development
+Algorithm: Decision Tree Classifier + Ensemble Learning
+
+Training Platform: IBM Cloud ML Services
+
+Input Features: Protocol types, service type, traffic duration, etc.
+
+Output: Binary classification (Intrusion = 1, Normal = 0)
+
+🚀 Deployment
+The model is deployed and can be accessed through the following API:
+
+🔗 IBM Cloud ML Deployment Link
+
+📈 Result
+The model achieved an impressive accuracy of 99.5% on test data, making it a highly effective intrusion detection tool.
+
+🔮 Future Scope
+Integrate with real-time traffic data for dynamic predictions.
+
+Use advanced ensemble techniques (e.g., Random Forest, Gradient Boosting).
+
+Expand model to detect zero-day attacks.
+
+Enable integration with existing SIEM tools.
+
+📂 Dataset
+Kaggle - Network Intrusion Detection Dataset
+
+📚 References
+Decision Tree Classifier Paper - IEEE
+
+ScienceDirect Article on Intrusion Detection
+
+IBM Cloud AutoAI Documentation
+
+📜 Certifications
+IBM Cloud Machine Learning
+
+IBM AutoAI Deployment
